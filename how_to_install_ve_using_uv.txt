@@ -1,0 +1,46 @@
+SETTING UP YOUR VIRTUAL ENVIRONMENT USING UV 
+WHILE YOUR PROJECT IS SYNCHRONIZED VIA DROPBOX
+
+(1) Place the 'pyproject.toml' and 'uv.lock' files in the root of your project
+directory. In case the filename has an extension, e.g., 'pyproject - eaisi.toml'
+and 'uv - eaisi.lock' remove '- eaisi' so that 'pyproject.toml' and 'uv.lock' 
+remain.
+
+(2) Ensure there is an empty .venv/ folder in the project folder. The project
+template contains a /.venv folder.
+
+(3) To ignore the /.venv folder from Dropbox sync, execute:
+xattr -w com.dropbox.ignored 1 .venv
+
+(4) Create your virtual environment ('.venv/') using uv, execute:
+uv sync
+
+================================================================================
+
+If you ever need to sync the /.venv folder:
+xattr -d com.dropbox.ignored .venv
+
+================================================================================
+
+ADD A NEW PACKAGE TO YOUR VIRTUAL ENVIRONMENT
+
+To add a new package to your virtual environment, use:
+uv add package_name==version
+
+For example, to add version 2.31.0 of the 'requests' package:
+uv add requests==2.31.0
+
+================================================================================
+
+REMOVE A PACKAGE FROM YOUR VIRTUAL ENVIRONMENT
+
+To remove a new package from your virtual environment, use:
+uv remove package_name
+
+For example, to remove the 'requests' package:
+uv remove requests
+
+================================================================================
+
+
+
