@@ -10,7 +10,7 @@ Project participants are welcome to visit the office space where the sensors wer
 ## Background
 Modern buildings increasingly rely on sensor networks to improve indoor environmental quality, occupant comfort and energy efficiency. Occupancy information plays an important role in these applications. If building systems know how many people are present in a space, heating, cooling, and ventilation can be adjusted accordingly.
 
-DataBuilt has developed the Sensi sensor platform for indoor environmental monitoring [LOES - ZULLEN WE HIER EEN LINK NAAR DE WEBSITE TOEVOEGEN]. In an experimental office environment, multiple sensors were deployed to measure environmental conditions while the number of occupants in the space was logged separately.
+DataBuilt has developed the Sensi sensor platform for indoor environmental monitoring https://www.sensi-sensoren.nl/. In an experimental office environment, multiple sensors were deployed to measure environmental conditions while the number of occupants in the space was logged separately.
 
 The central question in this case is:
 > Can we accurately predict room occupancy using environmental sensor measurements, and what is the minimum sensor configuration required to do so?
@@ -36,8 +36,9 @@ Possible approaches include:
 - Predicting occupancy categories (classification).
 - Comparing the performance of both approaches.
 - Investigating the trade-off between model complexity, prediction performance and number of sensors.
-- [LOES - Improving trust in the model by developing inherently interpretable machine learning models or applying post-hoc explainability methods like SHAP.]
+- Improving trust in the model by developing inherently interpretable machine learning models or applying post-hoc explainability methods like SHAP.
 - [LOES - Deployment / dashboard]
+
 Participants are free to choose the approach that best addresses the business question and to justify their choices.
 
 
@@ -48,7 +49,8 @@ This project follows the CRISP-DM methodology:
 3. Data Preparation
 4. Modelling
 5. Evaluation
-6. Reporting [LOES - vervangen door Deployment]
+6. Deployment
+   
 Participants are expected to perform their own data exploration, cleaning, feature engineering and model development.
 
 The focus is not only on predictive performance but also on generating actionable recommendations for future sensor deployments.
@@ -148,6 +150,7 @@ Available variables include:
 - Motion
 - Light intensity
 - Timestamp information
+  
 The `Clean_nomerge` folder contains individual sensor exports and should be considered the primary data source for most analyses.
 
 ### Occupancy Data
@@ -170,6 +173,7 @@ Participants are encouraged to:
 - Handle missing values.
 - Justify cleaning decisions.
 - Document all preparation steps.
+  
 There is no prescribed workflow.
 
 ## Supporting Documents
