@@ -1,6 +1,7 @@
-# EAISI Smart Buildings
+# Smart Buildings
 
 ## A data science case study on occupancy prediction and sensor optimization in office environments
+
 This case study was developed for the EAISI Applications of Data & AI programme in collaboration with DataBuilt.
 
 Participants will work on a real-world smart building challenge using environmental sensor data collected in an office environment. The objective is to investigate how accurately room occupancy can be predicted from sensor measurements while minimizing the number of sensors required and optimizing their placement.
