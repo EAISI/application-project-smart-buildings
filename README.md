@@ -220,6 +220,18 @@ contains background information about earlier experiments, sensor placement deci
 
 Note that this presentation describes previous pilot study and should be considered supporting context rather than the assignment itself.
 
+
+## Report
+Your final report and presentation should include:
+- A clear description of the business problem and data mining formulation.
+- An explanation of how the sensor and occupancy data were prepared.
+- A comparison of different modelling approaches.
+- An evaluation of model performance using appropriate metrics.
+- An analysis of which sensors, locations and variables contribute most to prediction performance.
+- A recommendation on the minimum number of sensors and their preferred placement.
+- If applicable, a comparison between dedicated room-specific models and a generic model.
+- Practical advice for DataBuilt on how to improve future sensor deployments and data collection.
+
 ## Expected Deliverables
 At the end of the project participants should be able to:
 - Develop a predictive occupancy model.
