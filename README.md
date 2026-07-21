@@ -10,7 +10,7 @@ Project participants are welcome to visit the office space where the sensors wer
 ## Background
 Modern buildings increasingly rely on sensor networks to improve indoor environmental quality, occupant comfort and energy efficiency. Occupancy information plays an important role in these applications. If building systems know how many people are present in a space, heating, cooling, and ventilation can be adjusted accordingly.
 
-DataBuilt https://databuilt.nl/ has developed the Sensi sensor platform for indoor environmental monitoring https://www.sensi-sensoren.nl/. In an experimental office environment, multiple sensors were deployed to measure environmental conditions while the number of occupants in the space was logged separately.
+(DataBuilt)[https://databuilt.nl/] has developed the Sensi sensor platform for indoor environmental monitoring https://www.sensi-sensoren.nl/. In an experimental office environment, multiple sensors were deployed to measure environmental conditions while the number of occupants in the space was logged separately.
 
 The central question in this case is:
 > Can we accurately predict room occupancy using environmental sensor measurements, and what is the minimum sensor configuration required to do so?
