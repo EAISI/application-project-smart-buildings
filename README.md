@@ -81,16 +81,6 @@ application-project-smart-buildings/
 │   ├── main.py
 │   ├── hassebassie.py
 │   └── utils_project/
-├── data/
-│   ├── occupancy_log/
-│   │   └── occupancy_log.csv
-│   └── clean_nomerge/
-│       ├── CEIL1.csv
-│       ├── CEIL2.csv
-│       ├── IEQ1WR.csv .. IEQ4WR.csv
-│       ├── workroom_F.ipynb
-│       ├── WR_responses.csv
-│       └── WR1.csv ... WR8.csv
 ├── documents/
 │   ├── sensor/
 │   │   ├── sensor_placement_WorkroomSTUDY.pdf
@@ -106,13 +96,7 @@ application-project-smart-buildings/
 
 ## Dataset
 
-### Sensor Data
-
-The `clean_nomerge\` directory contains measurements collected from multiple sensors placed throughout the office space. 
-
-### Occupancy Data
-
-The occupancy measurements represent the target variable for the project and are located in the `occupancy_log\` directory.
+The data will be made available to the participants working on group project "Smart Buildings" through the private repo [Smart Buildings - Data](https://github.com/EAISI/application-project-smart-buildings-data/tree/main)
 
 ## Supporting Documents
 Several supporting documents are provided to help you understand the context of the case.
